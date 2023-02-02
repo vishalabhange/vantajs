@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>vanta</title>
+    <link rel="stylesheet" href="D:\web\vanta\css\style.css">
+
+  </head>
+  <body>
+
+    <div id="vanta-canvas"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r120/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.19/vanta.globe.min.js"></script>
+
+    <script type="text/javascript">
+    VANTA.GLOBE({
+      el: "#vanta-canvas",
+      mouseControls: true,
+      touchControls: true,
+      gyroControls: false,
+      minHeight: 200.00,
+      minWidth: 200.00,
+      scale: 1.00,
+      scaleMobile: 1.00,
+      color: 0xffffff,
+      color2: 0x5656e5,
+      backgroundColor: 0x5b222e
+    })
+    </script>
+
+  </body>
+</html>
